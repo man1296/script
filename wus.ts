@@ -24,7 +24,7 @@ const main = async () => {
   }
 
   const provider = new providers.JsonRpcProvider(
-    'https://rpc.ankr.com/eth_goerli' // RPC, Cari Rpc di chainlist.org kalau rpc ini gk aktif
+    'https://ethereum.publicnode.com' // RPC, Cari Rpc di chainlist.org kalau rpc ini gk aktif
   )
 
   const authSigner = Wallet.createRandom() //Ini buat wallet baru, jangan diubah" karena ini gk ngaruh, cuma signer ke relay aja buat verifikasi jaringan
